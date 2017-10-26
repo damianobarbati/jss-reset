@@ -3,6 +3,7 @@
     "version": "1.0.1",
     "license": "MIT",
     "author": "Damiano Barbati <damiano.barbati@gmail.com> (http://github.com/damianobarbati)",
+    "repository": "https://github.com/damianobarbati/jss-reset",
     "main": "src/index.js",
     "module": "src/index.js",
     "jsnext:main": "src/index.js"
