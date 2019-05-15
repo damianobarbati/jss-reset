@@ -3,6 +3,8 @@
 }
 
 html, body {
+    margin: 0;
+    padding: 0;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
 }
@@ -69,6 +71,10 @@ input, textarea, button {
     appearance: none;
 }
 
-button :focus {
+input, select, textarea, button: {
+    font-family: inherit;
+};
+
+button {
     outline: none !important;
 }

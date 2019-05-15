@@ -5,6 +5,8 @@ export default {
         },
 
         'html, body': {
+            margin: 0,
+            padding: 0,
             fontSynthesis: 'none',
             textRendering: 'optimizeLegibility',
         },
@@ -71,7 +73,11 @@ export default {
             appearance: 'none',
         },
 
-        'button :focus': {
+        'input, select, textarea, button': {
+            fontFamily: 'inherit',
+        },
+
+        'button': {
             outline: 'none !important',
         },
     },
