@@ -1,0 +1,51 @@
+/*
+- https://css-tricks.com/typography-for-developers/
+- https://css-tricks.com/simplified-fluid-typography/
+- https://type-scale.com/
+- base size: 16px, scale 1.25, weight: 400
+*/
+
+body {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, p, span, small {
+    margin-bottom: 1.5rem;
+}
+
+h1 {
+    font-size: 3.052em;
+    line-height: 1.25;
+}
+
+h2 {
+    font-size: 2.441em;
+    line-height: 1.25;
+}
+
+h3 {
+    font-size: 1.953em;
+    line-height: 1.35;
+}
+
+h4 {
+    font-size: 1.563em;
+    line-height: 1.35;
+}
+
+h5 {
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+
+p, span {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+small {
+    font-size: 0.8em;
+}

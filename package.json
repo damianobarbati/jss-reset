@@ -7,11 +7,30 @@
     "repository": "https://github.com/damianobarbati/jss-reset",
     "type": "module",
     "main": "./src/index.js",
+    "exports": {
+        "./": "src/index.js",
+        "./form": "src/form.js",
+        "./typography": "src/typography.js"
+    },
     "scripts": {
-        "build": "jss convert src/index.css --format js --export es6 > src/index.js"
+        "prepublish": "yarn build && yarn docs",
+        "build": "yarn build:form & yarn build:typography & yarn build:reset",
+        "build:form": "jss convert src/form.css --format js --export es6 > src/form.js",
+        "build:typography": "jss convert src/typography.css --format js --export es6 > src/typography.js",
+        "build:reset": "jss convert src/reset.css --format js --export es6 > src/reset.js",
+        "watch": "ls src/*.css | entr yarn build",
+        "demo": "parcel src/demo.html --open",
+        "docs": "parcel build src/demo.html --out-dir docs --out-file index.html --public-url https://damianobarbati.github.io/jss-reset/"
     },
     "devDependencies": {
         "esm": "^3.2.25",
-        "jss-cli": "^5.0.2"
+        "jss": "^10.0.3",
+        "jss-cli": "^5.0.2",
+        "jss-preset-default": "^10.0.3",
+        "parcel": "^1.12.4",
+        "poppins": "^0.1.1"
+    },
+    "dependencies": {
+        "typeface-poppins": "^0.0.72"
     }
 }
