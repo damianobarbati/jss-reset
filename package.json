@@ -1,9 +1,17 @@
 {
     "name": "jss-reset",
     "version": "1.0.3",
+    "description": "JSS reset stylesheet is to reduce browser defaults inconsistencies.",
     "license": "MIT",
     "author": "Damiano Barbati <damiano.barbati@gmail.com> (http://github.com/damianobarbati)",
     "repository": "https://github.com/damianobarbati/jss-reset",
-    "main": "index.js",
-    "module": "index.js"
+    "type": "module",
+    "main": "./src/index.js",
+    "scripts": {
+        "build": "jss convert src/index.css --format js --export es6 > src/index.js"
+    },
+    "devDependencies": {
+        "esm": "^3.2.25",
+        "jss-cli": "^5.0.2"
+    }
 }
