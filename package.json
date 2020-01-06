@@ -13,7 +13,7 @@
         "./typography": "src/typography.js"
     },
     "scripts": {
-        "prepublish": "yarn build && yarn docs:build",
+        "prepublishOnly": "yarn build && yarn docs:build",
         "build": "yarn build:form & yarn build:typography & yarn build:typography6 & yarn build:reset",
         "build:form": "jss convert src/form.css --format js --export es6 > src/form.js",
         "build:typography": "jss convert src/typography.css --format js --export es6 > src/typography.js",
