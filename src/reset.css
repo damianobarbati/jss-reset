@@ -13,9 +13,8 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, small, span, a, blockquote, pre, abb
 }
 
 body {
-    min-height: 100vh;
     scroll-behavior: smooth;
-    line-height: 1.5;
+    line-height: 1.25;
     font-smoothing: antialiased;
     font-synthesis: none;
     text-rendering: auto;
@@ -23,6 +22,10 @@ body {
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
+}
+
+a {
+    cursor: pointer;
 }
 
 ol, ul {

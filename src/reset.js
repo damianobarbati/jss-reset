@@ -13,15 +13,17 @@ export default {
       verticalAlign: 'baseline'
     },
     body: {
-      minHeight: '100vh',
       scrollBehavior: 'smooth',
-      lineHeight: '1.5',
+      lineHeight: '1.25',
       fontSmoothing: 'antialiased',
       fontSynthesis: 'none',
       textRendering: 'auto'
     },
     'article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section': {
       display: 'block'
+    },
+    a: {
+      cursor: 'pointer'
     },
     'ol, ul': {
       listStyle: 'none'

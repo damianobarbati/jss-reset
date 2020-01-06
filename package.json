@@ -1,7 +1,7 @@
 {
     "name": "jss-reset",
     "version": "1.1.1",
-    "description": "JSS reset stylesheet is to reduce browser defaults inconsistencies.",
+    "description": "JSS stylesheets to reduce browser defaults inconsistencies.",
     "license": "MIT",
     "author": "Damiano Barbati <damiano.barbati@gmail.com> (http://github.com/damianobarbati)",
     "repository": "https://github.com/damianobarbati/jss-reset",
@@ -13,24 +13,24 @@
         "./typography": "src/typography.js"
     },
     "scripts": {
-        "prepublish": "yarn build && yarn docs",
-        "build": "yarn build:form & yarn build:typography & yarn build:reset",
+        "prepublish": "yarn build && yarn docs:build",
+        "build": "yarn build:form & yarn build:typography & yarn build:typography6 & yarn build:reset",
         "build:form": "jss convert src/form.css --format js --export es6 > src/form.js",
         "build:typography": "jss convert src/typography.css --format js --export es6 > src/typography.js",
+        "build:typography6": "jss convert src/typography6.css --format js --export es6 > src/typography6.js",
         "build:reset": "jss convert src/reset.css --format js --export es6 > src/reset.js",
         "watch": "ls src/*.css | entr yarn build",
-        "demo": "parcel src/demo.html --open",
-        "docs": "parcel build src/demo.html --out-dir docs --out-file index.html --public-url https://damianobarbati.github.io/jss-reset/"
+        "docs:watch": "parcel demo/index.html --open",
+        "docs:build": "parcel build demo/index.html --out-dir docs --out-file index.html --public-url https://damianobarbati.github.io/jss-reset/"
     },
     "devDependencies": {
         "esm": "^3.2.25",
         "jss": "^10.0.3",
         "jss-cli": "^5.0.2",
         "jss-preset-default": "^10.0.3",
-        "parcel": "^1.12.4",
-        "poppins": "^0.1.1"
+        "parcel": "^1.12.4"
     },
     "dependencies": {
-        "typeface-poppins": "^0.0.72"
+        "typeface-source-sans-pro": "^0.0.75"
     }
 }
