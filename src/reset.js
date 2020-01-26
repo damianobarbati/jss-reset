@@ -62,6 +62,7 @@ export default {
       borderRadius: '0'
     },
     'input, textarea, button': {
+      font: 'inherit',
       appearance: 'none'
     },
     'input, select, textarea, button': {
