@@ -1,6 +1,6 @@
 {
     "name": "jss-reset",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "description": "JSS stylesheets to reduce browser defaults inconsistencies.",
     "license": "MIT",
     "author": "Damiano Barbati <damiano.barbati@gmail.com> (http://github.com/damianobarbati)",
