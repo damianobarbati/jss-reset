@@ -3225,9 +3225,9 @@ lodash.uniq@^4.5.0:
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
 lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.4:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -3818,13 +3818,6 @@ pn@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/pn/-/pn-1.1.0.tgz#e2f4cef0e219f463c179ab37463e4e1ecdccbafb"
   integrity sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==
-
-poppins@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/poppins/-/poppins-0.1.1.tgz#c781b48d68cfb1ae5960a3740e9744525eb416e1"
-  integrity sha1-x4G0jWjPsa5ZYKN0DpdEUl60FuE=
-  dependencies:
-    shallow-copy "0.0.1"
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -4664,7 +4657,7 @@ sha.js@^2.4.0, sha.js@^2.4.8:
     inherits "^2.0.1"
     safe-buffer "^5.0.1"
 
-shallow-copy@0.0.1, shallow-copy@~0.0.1:
+shallow-copy@~0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/shallow-copy/-/shallow-copy-0.0.1.tgz#415f42702d73d810330292cc5ee86eae1a11a170"
   integrity sha1-QV9CcC1z2BAzApLMXuhurhoRoXA=
@@ -5130,11 +5123,6 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
-
-typeface-poppins@^0.0.72:
-  version "0.0.72"
-  resolved "https://registry.yarnpkg.com/typeface-poppins/-/typeface-poppins-0.0.72.tgz#3262d6533dea2e99a5cafb3be7d8fa876e105206"
-  integrity sha512-FgzdU4XfGYc4aTq6WZD9FC+le4Foz6cyzjdjDvVnQePTQSUD0dkrXiVaTK/cyNVXQrEl2ykV39PxeKeFqqkrTA==
 
 typeface-source-sans-pro@^0.0.75:
   version "0.0.75"
